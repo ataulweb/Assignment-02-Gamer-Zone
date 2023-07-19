@@ -33,7 +33,7 @@
 
 .section-description-text{
     color: #534C64;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 30px; 
 }
@@ -161,4 +161,35 @@
     width: 230px;
     height: 100%;
     padding: 10px;
+}
+
+/* Play instantly Section */
+.play-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.play-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.play-content{
+    margin-top: 40vh;
+    width: 50%;
+
+}
+
+.play-main-img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.play-small-img{
+    position: relative;
+    top: 60vh;
+    right: 10vh;
+    
 }
