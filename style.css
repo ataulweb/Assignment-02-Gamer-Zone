@@ -102,7 +102,7 @@
     align-items: center;
     justify-content: space-around;
     max-width: 1000px;
-    margin: 30px auto 0;
+    margin: 40px auto 0;
     background-image: url('./images/Group\ 14.png');
 
 }
@@ -201,12 +201,15 @@
 /* icon-title-section */
 #icon-section{
     max-width: 1000px;
-    margin: 280px 150px auto;  
+    margin: 280px 150px auto;
+
+    
 }
 .icon-container{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .icon-text{

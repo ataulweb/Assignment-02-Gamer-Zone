@@ -31,6 +31,14 @@
         margin-top: 40vh;
         width: 100%;
     }
+
+    .play-content span{
+        font-size: 30px;
+    }
+    .play-content p{
+        margin-left: 0px;
+    
+    }
     #icon-section{
         margin: 280px 0 auto;  
     }
@@ -39,10 +47,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-}
 
 
 
+/* Tablet Responsive section */
 
 @media screen and (min-width: 451px) and (max-width: 992px) {
     .nav-container,
