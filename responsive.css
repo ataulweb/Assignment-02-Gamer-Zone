@@ -2,7 +2,8 @@
     .nav-item-container,
     .banner-section,
     .online-game-img-content,
-    .nav-container
+    .nav-container,
+    .play-container
     {
         flex-direction: column;
         row-gap: 20px;
@@ -12,6 +13,14 @@
         padding: 0;
         margin-top: 15px;
     }
+
+    .play-content{
+        text-align: center;
+        margin-top: 40vh;
+        width: 100%;
+    }
+
+
 }
 
 
