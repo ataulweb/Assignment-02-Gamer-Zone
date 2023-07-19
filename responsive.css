@@ -1,6 +1,7 @@
 @media screen and (max-width: 450px) {
     .nav-item-container,
     .banner-section,
+    .online-game-img-content,
     .nav-container
     {
         flex-direction: column;
@@ -23,5 +24,11 @@
     {
         flex-direction: column;
         row-gap: 15px;
+    }
+
+    .online-game-img-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 25px;
     }
 }
