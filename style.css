@@ -49,7 +49,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     margin: 30px auto 0;
 }
 .logo-item-container{
@@ -102,7 +102,7 @@
     align-items: center;
     justify-content: space-around;
     max-width: 1000px;
-    margin: 50px auto 0;
+    margin: 30px auto 0;
     background-image: url('./images/Group\ 14.png');
 
 }
