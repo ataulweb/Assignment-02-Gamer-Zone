@@ -17,6 +17,27 @@
     border-radius: 1rem;
 }
 
+.section-heading-normal{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700; 
+}
+.section-heading-linear{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-description-text{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
 /* nav section */
 .nav-container{
     max-width: 1000;
@@ -112,4 +133,19 @@
 
 .banner-content .rogue{
     background: #4EC5F7; 
+}
+
+/* Online game section */
+.online-game-section{
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.online-game-container p{
+    margin-bottom: 40px;
+}
+
+.online-game-img-content img{
+    width: 250px;
+    height: 100%;
 }
