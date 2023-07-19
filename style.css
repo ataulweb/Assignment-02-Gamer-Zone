@@ -239,7 +239,7 @@ footer{
 .footer-section{
     max-width: 1000px;
     padding-top: 60px;
-    color: white;
+    color: rgba(255, 255, 255, 0.60); 
     margin: 0 auto;
 }
 
@@ -254,4 +254,17 @@ footer{
 
 .footer-list li{
     list-style: none;
+}
+
+.footer-icon{
+    margin-top: 50px;
+
+}
+
+.footer-icon .fa-brands{
+    margin-right: 40px;
+}
+
+.footer-copyright{
+    margin-top: 50px;
 }
