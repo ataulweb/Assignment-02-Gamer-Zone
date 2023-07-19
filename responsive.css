@@ -31,16 +31,13 @@
         margin-top: 40vh;
         width: 100%;
     }
-
     #icon-section{
-        display: none;
+        margin: 280px 0 auto;  
     }
-
-    footer{
-        margin-top: 70vh;
-        width: 100%;
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
-
 
 }
 
@@ -69,9 +66,17 @@
     .nav-item-container{
         width: 100%;
     }
+
     .online-game-img-content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 25px;
+    }
+    #icon-section{
+        margin: 280px 0 auto;  
+    }
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
