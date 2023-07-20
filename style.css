@@ -201,7 +201,7 @@
 /* icon-title-section */
 #icon-section{
     max-width: 1000px;
-    margin: 280px 150px auto;
+    margin: 280px auto 0;
 
     
 }
@@ -209,6 +209,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: center;
 
 }
 
@@ -268,5 +269,5 @@ footer{
 }
 
 .footer-copyright{
-    margin-top: 50px;
+    padding-top: 50px;
 }

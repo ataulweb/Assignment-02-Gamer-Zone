@@ -46,7 +46,27 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 15px;       
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 75px;
+        margin-top: 50px;
+    }
+    .footer-nav .ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px; 
+    }
+    .footer-copyright{
+        background-color: black;
+        padding-bottom: 30px;
+    }
+}
 
 
 
